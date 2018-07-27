@@ -3,6 +3,10 @@
 Reads MYSQL dump file and yields back the statements one at a time.  Automatically skips comments and
 keeps multi-line statements together.
 
+This is a decent use case of a [generator function](https://wiki.python.org/moin/Generators).
+You typically want to execute these statements right away.  Read as many as you want from a
+file for very little memory cost.
+
 ## Example Usage
 
 ```python
