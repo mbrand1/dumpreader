@@ -5,10 +5,12 @@ keeps multi-line statements together.
 
 ## Example Usage
 
-  from dumpreader import DumpReader
-  dr = DumpReader()
-  for statement in dr.read_statements('somestatements.sql'):
-    print(statement)
+```python
+from dumpreader import DumpReader
+dr = DumpReader()
+for statement in dr.read_statements('somestatements.sql'):
+  print(statement)
+```
 
 ## License
 
